@@ -1,6 +1,7 @@
 # Demo RabbitMQ with Spring Boot
 
 This project aims to build a Java application model in modules.
+<a href="https://github.com/casdeveloper/demoRabbitMQ#/" target="_blank">GitHub Project</a>
 
 
 ## :: Resources ::
@@ -86,3 +87,7 @@ The architecture was developed in microservices using modular development, optim
   +55 (16) 99173 - 1314
 
   casdeveloepr@icloud.com
+
+  <a href="https://github.com/casdeveloper#/" target="_blank">GitHub</a>
+
+  <a href="linkedin.com/in/carlos-alves-92362420#/" target="_blank">Linkedin</a>
