@@ -1,28 +1,21 @@
 package com.casdeveloper.core.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
 @Entity
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Registration implements Serializable {
-
-    public Registration(RegistrationId id) {
-        this.id = id;
-    }
-
-    public Registration() {}
 
     @EmbeddedId
     private RegistrationId id;
 
-    public RegistrationId getId() {
-        return id;
-    }
-
-    public void setId(RegistrationId id) {
-        this.id = id;
-    }
 }
