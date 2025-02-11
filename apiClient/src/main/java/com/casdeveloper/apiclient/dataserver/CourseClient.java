@@ -10,14 +10,13 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 @Component
-@FeignClient(value = "course-client", url = "${feignclient.urlDataServer}")
-@RequestMapping("/api/course")
+@FeignClient(value = "course-client", url = "${feignclient.urlDataServer}", path = "/api/course")
 public interface CourseClient {
 
-    @GetMapping("/{id}")
+    @GetMapping(value = "/{id}")
     public ResponseEntity<CourseDto> findById(@PathVariable("id") Long id);
 
-    @GetMapping("/all")
+    @GetMapping(value ="/all")
     public ResponseEntity<List<CourseDto>> findAll();
 
     @PostMapping(value = "/save")

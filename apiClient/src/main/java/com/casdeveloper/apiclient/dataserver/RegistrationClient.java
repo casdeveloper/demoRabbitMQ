@@ -14,8 +14,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 @Component
-@FeignClient(value = "registration-client", url = "${feignclient.urlDataServer}")
-@RequestMapping("/api/registration")
+@FeignClient(value = "registration-client", url = "${feignclient.urlDataServer}", path = "/api/registration")
 public interface RegistrationClient {
 
     @GetMapping("/")

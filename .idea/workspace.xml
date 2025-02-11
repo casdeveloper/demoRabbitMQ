@@ -5,53 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7517938e-012f-4652-b279-0016f1b759f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/config/ApiClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/dataserver/CourseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/dataserver/PersonClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/dataserver/RegistrationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/api/BackOfficeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/api/controller/BackOfficeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/component/QueueReceiveComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/config/BackOfficeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/service/BackOfficeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/service/impl/BackOfficeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/helper/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/helper/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/model/RMQMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/model/type/TypeActionMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/model/type/TypeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataserver/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/api/CallCenterApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/api/controller/CallCenterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/component/QueueSenderComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/config/CallCenterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/service/CallCenterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/service/impl/CallCenterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/resources/lombok.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataserver/src/main/java/com/casdeveloper/dataserver/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/config/OpenApiConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/dataserver/CourseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/dataserver/CourseClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/dataserver/RegistrationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/apiClient/src/main/java/com/casdeveloper/apiclient/dataserver/RegistrationClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/api/BackOfficeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/casdeveloper/consumer/api/BackOfficeApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/RegistrationId.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/entity/RegistrationId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/helper/MapperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/casdeveloper/core/helper/MapperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dataDb.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dataDb.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dataDb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/dataDb.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataserver/data/dataDb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/dataserver/data/dataDb.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataserver/src/main/java/com/casdeveloper/dataserver/api/CourseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataserver/src/main/java/com/casdeveloper/dataserver/api/CourseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataserver/src/main/java/com/casdeveloper/dataserver/api/PersonApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataserver/src/main/java/com/casdeveloper/dataserver/api/PersonApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataserver/src/main/java/com/casdeveloper/dataserver/api/RegistrationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataserver/src/main/java/com/casdeveloper/dataserver/api/RegistrationApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dataserver/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/ProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/api/CallCenterApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/casdeveloper/producer/api/CallCenterApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +67,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.ConsumerApplication.executor": "Debug",
+    "Spring Boot.ConsumerApplication.executor": "Run",
     "Spring Boot.DataserverApplication.executor": "Run",
     "Spring Boot.ProducerApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -114,6 +88,10 @@
       <recent name="$PROJECT_DIR$/consumer/src/main/resources" />
       <recent name="$PROJECT_DIR$/producer/src/main/resources" />
       <recent name="$PROJECT_DIR$/core/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.casdeveloper.producer.config" />
+      <recent name="com.casdeveloper.consumer.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,12 +152,24 @@
       <workItem from="1738594396996" duration="2596000" />
       <workItem from="1738615180526" duration="19883000" />
       <workItem from="1738965078420" duration="14941000" />
-      <workItem from="1739129631348" duration="23129000" />
+      <workItem from="1739129631348" duration="24710000" />
+      <workItem from="1739284649363" duration="7731000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
