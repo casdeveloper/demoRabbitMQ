@@ -80,7 +80,13 @@ The architecture was developed in microservices using modular development, optim
 <a href="http://localhost:15672#/" target="_blank">RabbitMQ</a>
 
 
-## Authors
+## Future Works
+
+- [ ] Log Messages Repository
+- [ ] FrontEnd basic
+
+
+## Authors 
 
 - [Carlos Alves](https://github.com/casdeveloper)
 
